@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router'; 
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ElementsModule } from './elements/elements.module';
 import {CollectionsModule} from './collections/collections.module';
@@ -13,7 +12,7 @@ import {CollectionsModule} from './collections/collections.module';
   imports: [
     BrowserModule,
     ElementsModule,
-    AppRoutingModule,
+    RouterModule,
     CollectionsModule
   ],
   providers: [],
