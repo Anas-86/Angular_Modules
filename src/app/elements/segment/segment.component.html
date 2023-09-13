@@ -1,0 +1,14 @@
+<div class="ui placeholder segment">
+    <!-- selecting by Element -->
+    <div class="ui icon header">
+        <ng-content select="header"></ng-content>
+    </div>
+    <!-- selecting by Element -->
+    <ng-content select="body"></ng-content>
+    <!-- selecting by attribute -->
+    <ng-content select="[newWorld]"></ng-content>
+    <!-- selecting by class -->
+    <ng-content select=".Ob"></ng-content>
+    <!-- The rest is listed here -->
+    <ng-content></ng-content>
+</div>

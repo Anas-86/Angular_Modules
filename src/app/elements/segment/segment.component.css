@@ -1,0 +1,6 @@
+/* This is going to hide the div Element with the class "ui icon header", when it 
+is not used. This way, the div will be completely hidden as opposed to being 
+displayed as an empty div */
+div.ui.icon.header:empty{
+    display: none;
+}
